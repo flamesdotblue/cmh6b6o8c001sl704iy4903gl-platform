@@ -21,10 +21,10 @@ export default function App() {
           <div className="flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-sm text-slate-500">HealRoutes — Connecting the World to India’s Wellness Heritage.</p>
             <nav className="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-slate-600">
-              <a href="#about" className="hover:text-teal-700 transition-colors">About</a>
-              <a href="#packages" className="hover:text-teal-700 transition-colors">Packages</a>
-              <a href="#partners" className="hover:text-teal-700 transition-colors">Partners</a>
-              <a href="#contact" className="hover:text-teal-700 transition-colors">Contact</a>
+              <a href="#about" className="transition-colors hover:text-teal-700">About</a>
+              <a href="#packages" className="transition-colors hover:text-teal-700">Packages</a>
+              <a href="#partners" className="transition-colors hover:text-teal-700">Partners</a>
+              <a href="#contact" className="transition-colors hover:text-teal-700">Contact</a>
             </nav>
           </div>
           <div className="mt-8 text-xs text-slate-400">© {new Date().getFullYear()} HealRoutes. All rights reserved.</div>

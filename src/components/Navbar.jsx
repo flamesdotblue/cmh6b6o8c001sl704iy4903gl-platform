@@ -14,11 +14,11 @@ export default function Navbar() {
         </a>
 
         <nav className="hidden items-center gap-8 text-sm text-slate-700 md:flex">
-          <a href="#about" className="hover:text-teal-700 transition-colors">About</a>
-          <a href="#packages" className="hover:text-teal-700 transition-colors">Packages</a>
-          <a href="#how" className="hover:text-teal-700 transition-colors">How It Works</a>
-          <a href="#partners" className="hover:text-teal-700 transition-colors">Partners</a>
-          <a href="#contact" className="hover:text-teal-700 transition-colors">Contact</a>
+          <a href="#about" className="transition-colors hover:text-teal-700">About</a>
+          <a href="#packages" className="transition-colors hover:text-teal-700">Packages</a>
+          <a href="#how" className="transition-colors hover:text-teal-700">How It Works</a>
+          <a href="#partners" className="transition-colors hover:text-teal-700">Partners</a>
+          <a href="#contact" className="transition-colors hover:text-teal-700">Contact</a>
         </nav>
 
         <div className="flex items-center gap-3">
